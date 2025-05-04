@@ -33,6 +33,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 input,
 textarea,
@@ -381,10 +382,6 @@ button {
 .portfolio-images {
   position: relative;
   overflow: hidden;
-}
-.portfolio-img {
-  width: 288px;
-  height: 280px;
 }
 .portfolio-overlay {
   position: absolute;

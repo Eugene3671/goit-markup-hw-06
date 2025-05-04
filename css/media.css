@@ -190,10 +190,6 @@
   .portfolio-item {
     max-width: calc((100% - 24px) / 2);
   }
-  .portfolio-img {
-    width: 356px;
-    height: 300px;
-  }
 }
 @media screen and (min-width: 1440px) {
   .portfolio {
@@ -208,10 +204,6 @@
   }
   .portfolio-item {
     max-width: calc((100% - 48px) / 3);
-  }
-  .portfolio-img {
-    width: 360px;
-    height: 300px;
   }
 }
 
