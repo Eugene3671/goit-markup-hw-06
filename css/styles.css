@@ -501,9 +501,6 @@ button {
 .footer .social-link .icon {
   fill: #f4f4fd;
 }
-.form-footer-wrapper {
-  margin-left: auto;
-}
 .form-footer {
   display: flex;
   flex-direction: column;
@@ -531,7 +528,7 @@ button {
   border: 1px solid #fff;
   outline: none;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   font-size: 12px;
@@ -598,6 +595,11 @@ button {
   visibility: visible;
   pointer-events: auto;
 }
+.modal-menu-mobile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .menu-link-close-btn {
   position: absolute;
   top: 24px;
@@ -633,7 +635,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-bottom: 168px;
 }
 .menu-mobile .menu-list .menu-list-item {
   font-weight: 700;
@@ -649,6 +650,9 @@ button {
 .menu-mobile .menu-list .menu-list-item.active {
   color: #404bbf;
 }
+.menu-contacts-wraper {
+  margin-top: auto;
+}
 .menu-address-list {
   display: flex;
   flex-direction: column;
@@ -656,6 +660,7 @@ button {
   margin-bottom: 48px;
 }
 .menu-address-list .link {
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
